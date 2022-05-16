@@ -19,7 +19,7 @@ export default function Register() {
     }
     const handleSubmit = (e) => {
       e.preventDefault();
-      signup(email,password,route)
+      signup(email,password,route,name)
     }
 
         // const auth = getAuth()
@@ -42,18 +42,18 @@ export default function Register() {
             </header>
             <main className={styleMain}>
               <form onSubmit={handleSubmit}>
-                    {/* <div className={styleRow}>
+                    <div className={styleRow}>
                         <label htmlFor="name" className={styleInputLabel}>ユーザーネーム</label>
                         <input 
-                        id="name" 
+                        id="displayName" 
                         className={styleInput} 
-                        name="name"
+                        name="displayName"
                         type="name" 
                         value={name} 
                         onChange={(e)=>InputName(e)}
                         autoComplete="name" 
                         required/>
-                    </div> */}
+                    </div>
                     <div className={styleRow}>
                         <label htmlFor="email" className={styleInputLabel}>メールアドレス</label>
                         <input 
