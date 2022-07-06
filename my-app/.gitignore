@@ -32,3 +32,6 @@ yarn-error.log*
 .vercel
 
 firebase-test-serviceAccount.json
+
+firebase/config/
+.DS_Store

@@ -1808,6 +1808,11 @@
   dependencies:
     "argparse" "^2.0.1"
 
+"json-cyclic@^1.0.2":
+  "integrity" "sha512-K0Y9wQnrc13Ef+P8KY8SjFyVAz941CTrTVmu3oyQPExhaFFYXXLXnEuRi1tqYOS1B8WtFIxIwA7nHRJ64Uvf5Q=="
+  "resolved" "https://registry.npmjs.org/json-cyclic/-/json-cyclic-1.0.2.tgz"
+  "version" "1.0.2"
+
 "json-parse-even-better-errors@^2.3.0":
   "integrity" "sha512-xyFwyhro/JEof6Ghe2iz2NcXoj2sloNsWr/XsERDK/oiPCfaNhl5ONfp+jQdAZRQQ0IJWNzH9zIZF7li91kh2w=="
   "resolved" "https://registry.npmjs.org/json-parse-even-better-errors/-/json-parse-even-better-errors-2.3.1.tgz"
