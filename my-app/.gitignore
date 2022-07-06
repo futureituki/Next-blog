@@ -33,5 +33,5 @@ yarn-error.log*
 
 firebase-test-serviceAccount.json
 
-firebase/
+firebase/config/
 .DS_Store
