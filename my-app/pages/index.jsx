@@ -2,7 +2,7 @@ import { useRouter } from 'next/router';
 import { useEffect, useState ,useContext} from 'react';
 import Link from 'next/link';
 
-import {db} from '../firebase.js';
+import {db} from '../firebase/firebase.js';
 
 import { format } from 'date-fns';
 

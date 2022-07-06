@@ -2,7 +2,7 @@ import React, { useState,useContext, useEffect } from 'react'
 import { useRouter } from 'next/router'
 
 import firebase from 'firebase/app'
-import {db} from '../firebase'
+import {db} from '../firebase/firebase'
 
 import { AuthContext } from "../src/auth/authProvider.js";
 

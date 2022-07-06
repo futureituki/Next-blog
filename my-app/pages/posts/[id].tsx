@@ -1,6 +1,6 @@
 import { useRouter } from 'next/router';
 import React from 'react'
-import { db } from '../../firebase.js';
+import { db } from '../../firebase/firebase.js';
 // import {getPostData,getAllPostData} from '../../components/lib/posts.js'
 export default function Index({postData}) {
   const router = useRouter()
