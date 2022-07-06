@@ -1,9 +1,9 @@
-import React, { useState,useContext } from 'react'
-import axios from 'axios'
+import React, { useState,useContext, useEffect } from 'react'
 import { useRouter } from 'next/router'
+
 import firebase from 'firebase/app'
-import format from 'date-fns/format'
 import {db} from '../firebase'
+
 import { AuthContext } from "../src/auth/authProvider.js";
 
 export default function Create() {
@@ -16,6 +16,8 @@ export default function Create() {
   const [title,setTitle] = useState('');
   const [content,setContent] = useState('');
   const route = useRouter();
+
+
   const  registerPost = async (e) => {
     e.preventDefault();
     const now =firebase.firestore.Timestamp.now().toDate()
